@@ -1,0 +1,133 @@
+body{
+	margin: 0;
+	padding: 0;
+	background: url(MO.png);
+	background-size: cover;
+	background-position: center;
+	font-family: sans-serif;
+}
+.logo{
+	width:150px;
+	margin-left:610px;
+}
+.navbar ul li{
+	list-style: none;
+	display: inline-block;
+	margin: -110px 20px;
+	color: #fff;
+	font-size:20px;
+}
+.navbar ul li a{
+	text-decoration: none;
+	color: #ffffff;
+	text-transform: uppercase;
+}
+.navbar ul li a:hover{
+	color: #009688;
+}
+.navbar ul li a:hover::after{
+	content: '';
+	height: 3px;
+	width: 0%;
+	background: #009688;
+	left: 0;
+	bottom: -5px;
+	transition: 0.3s;
+}
+h1{
+	text-align: center;
+	margin-top: -40px;
+	margin-left: -75%;
+	font-size: 25px;
+	text-transform: uppercase;
+	font-style: italic;
+	color: #66ffcc;
+}
+.elem ul li{
+	margin: 10px;
+	margin-left: 70px;
+	font-size: 30px;
+	padding: 2px 0;
+	display: flex;
+	align-items: center; 
+	justify-content: space-between;
+	list-style: none;
+}
+.elem ul li a{
+	text-decoration: none;
+	position: center;
+	margin: 0 5px;
+	color: #ffffff;
+}
+.elem ul li a::after{
+	text-decoration: none;
+	color: #ffffff;
+	text-transform: uppercase;
+}
+.elem ul li a:hover{
+	color: #21afde;
+}
+h2{
+	text-align: center;
+	margin-top: -340px;
+	margin-left: -1%;
+	font-size: 25px;
+	text-transform: uppercase;
+	font-style: italic;
+	color: #66ffcc;
+}
+.Jhs ul li{
+	margin: 10px;
+	margin-left: 570px;
+	font-size: 30px;
+	padding: 2px 0;
+	display: flex;
+	align-items: center; 
+	justify-content: space-between;
+	list-style: none;
+}
+.Jhs ul li a{
+	text-decoration: none;
+	position: center;
+	margin: 0 5px;
+	color: #ffffff;
+}
+.Jhs ul li a::after{
+	color: #fff;
+	text-transform: uppercase;
+}
+.Jhs ul li a:hover{
+	color: #21afde;
+}
+h3{
+	text-align: center;
+	margin-top: -250px;
+	margin-left: 60%;
+	font-size: 25px;
+	text-transform: uppercase;
+	font-style: italic;
+	color: #66ffcc;
+}
+.Shs ul li{
+	margin: 10px;
+	margin-left: 970px;
+	font-size: 30px;
+	padding: 2px 0;
+	display: flex;
+	align-items: center; 
+	justify-content: space-between;
+	list-style: none;
+}
+.Shs ul li a{
+	text-decoration: none;
+	position: center;
+	margin: 0 5px;
+	color: #ffffff;
+}
+.Shs ul li a::after{
+	color: #fff;
+	text-transform: uppercase;
+}
+.Shs ul li a:hover{
+	color: #21afde;
+}

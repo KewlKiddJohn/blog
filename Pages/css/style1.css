@@ -1,0 +1,100 @@
+body{
+	margin: 0;
+	padding: 0;
+	background: url(Home.png);
+	background-size: cover;
+	background-position: center;
+	font-family: sans-serif;
+}
+.navbar{
+	width: 85%;
+	margin-top: -5px;
+	margin-left: 10%;
+	padding: 35px 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.logo{
+	width: 120px;
+	cursor: pointer;
+}
+.navbar ul li{
+	list-style: none;
+	display: inline-block;
+	margin: 0 4px;
+	color: #fff;
+}
+.navbar ul li a{
+	text-decoration: none;
+	color: #336699;
+	text-transform: uppercase;
+}
+.navbar ul li a:hover{
+	color: #009688;
+}
+.navbar ul li a:hover::after{
+	content: '';
+	height: 3px;
+	width: 0%;
+	background: #009688;
+	left: 0;
+	bottom: -5px;
+	transition: 0.3s;
+}
+img.logo1{
+	display: block;
+	margin-right: auto;
+	width: 250px;
+	margin-left: auto;
+}
+h1{
+	text-align: center;
+	margin-top: 20px;
+	margin-left: 5%;
+	font-size: 56px;
+	text-transform: uppercase;
+	font-style: italic;
+	color: #3333ff;
+	text-shadow: 2px 3px rgba(255, 255, 255);
+}
+button{
+	width: 200px;
+	padding: 15px 0;
+	text-align: center;
+	margin-left: 23%;
+	margin-top: 20px; 
+	border-radius: 25px;
+	font-weight: bold;
+	border: 2px solid #009688;
+	background: transparent;
+	color:#000;
+	cursor: pointer;
+}
+button:hover{
+	background-color:#009688;
+}
+.contact-us{
+	margin: 10px;
+	margin-left: 570px;
+	font-size: 13px;
+	padding: 2px 0;
+	display: flex;
+	align-items: center; 
+	justify-content: space-between;
+	color: #3333ff;
+	text-shadow: 1px 2px rgba(255, 255, 255);
+}
+.contact-us ul li{
+	list-style: none;
+	position: center;
+	margin: 0 5px;
+}
+.contact-us ul li a{
+	text-decoration: none;
+	color: #000;
+	text-transform: uppercase;
+}
+.contact-us ul li a:hover{
+	color:#009688;
+}

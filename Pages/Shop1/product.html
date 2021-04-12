@@ -1,0 +1,146 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>School Equipments</title>
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<style>
+		body{
+			font-family: sans-serif;
+			background-color: #7f5a83;
+			background-image: linear-gradient(315deg, #7f5a83 0%, #0d324d 74%);
+			height: 100vh;
+		}
+		.navbar li{
+			list-style: none;
+			display: flex;
+			color: #ffffff;
+			font-size:20px;
+			text-shadow: 0px 1px rgba(100, 255, 255);
+		}
+		.navbar li a{
+			text-decoration: none;
+			color: #ffffff;
+			text-transform: uppercase;
+		}
+		.navbar li a:hover{
+			color: #009688;
+		}
+		.navbar li a:hover::after{
+			content: '';
+			height: 3px;
+			width: 0%;
+			background: #009688;
+			left: 0;
+			bottom: -5px;
+			transition: 0.3s;
+		}
+		.badge-notify{
+			background: red;
+			position: relative;
+			top: -20px;
+			right: 40px;
+			font-family: sans-serif;
+		}
+		#addNewProduct{
+			background: transparent;
+			border: 2px solid white;
+			padding: 10px 15px;
+			color: white;
+			border-radius: 50px;
+			margin-top: 50px;
+		}
+		.btn{
+			padding: 10px 20px;
+			background: transparent;
+			border: 2px solid white;
+		}
+		.btn-info{
+			background #34495e;
+			padding: 10px 20px;
+			border-top-right-radius: 50px;
+			border-bottom-right-radius: 50px;
+		}
+		.row{
+			color: white;
+		}
+		h1{
+			color:white;
+		}
+		.btn-danger{
+			border-top-left-radius: 50px;
+			border-bottom-left-radius: 50px;
+		}
+		img{
+		transition: transform .2s;
+		box-shadow: 0 12px 18px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+		}
+		img:hover{
+			transform: scale(1.2);
+		}
+
+	</style>
+</head>
+<body>
+	<div class="container">
+	<br>
+		<div class="navbar" style="cursor: pointer; margin-left:-80px;">
+			<li><a href="../../index.html">Back</a></li>
+		</div>
+		<h1>
+			Products
+			<div style="float: right; cursor: pointer;">
+				<span class="glyphicon glyphicon-shopping-cart my-cart-icon">
+					<span class="badge badge-notify my-cart-badge"></span>
+				</span>
+			</div>
+		</h1>
+		<br>
+		<div class="row">
+			<div class="col-md-3 text-center">
+				<img src="pictures/Books.png" width="250"  height="250" alt="">
+				<br><br>
+				Book -<strong>$10</strong>
+				<br><br>
+				<button class="btn btn-danger my-cart-btn" data-id="1" data-name="product 1" data-summary="summary 1" data-price="10" data-quantity="1" data-image="pictures/Books.png">
+					Buy Now
+				</button>
+				<a href="" class="btn btn-info">Details</a>
+			</div>
+			<div class="col-md-3 text-center">
+				<img src="pictures/UniformE.png" width="250"  height="250" alt="">
+				<br><br>
+				Grade School UNIFORM-<strong>$10</strong>
+				<br><br>
+				<button class="btn btn-danger my-cart-btn" data-id="2" data-name="product 2" data-summary="summary 2" data-price="20" data-quantity="1" data-image="pictures/UniformE.png">
+					Buy Now
+				</button>
+				<a href="" class="btn btn-info">Details</a>
+			</div>
+			<div class="col-md-3 text-center">
+				<img src="pictures/UniformJ.png" width="250"  height="250" alt="">
+				<br><br>
+				JHS UNIFORM-<strong>$10</strong>
+				<br><br>
+				<button class="btn btn-danger my-cart-btn" data-id="2" data-name="product 2" data-summary="summary 2" data-price="20" data-quantity="1" data-image="pictures/UniformJ.png">
+					Buy Now
+				</button>
+				<a href="" class="btn btn-info">Details</a>
+			</div>
+			<div class="col-md-3 text-center">
+				<img src="pictures/UniformS.png" width="250"  height="250" alt="">
+				<br><br>
+				SHS UNIFORM-<strong>$10</strong>
+				<br><br>
+				<button class="btn btn-danger my-cart-btn" data-id="3" data-name="product 3" data-summary="summary 3" data-price="20" data-quantity="1" data-image="pictures/UniformS.png">
+					Buy Now
+				</button>
+				<a href="" class="btn btn-info">Details</a>
+			</div>
+		</div>
+	</div>
+	<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	<script src="js/jquery.mycart.js"></script>
+	<script src="js/cart.js"></script>
+</body>
+</html>
